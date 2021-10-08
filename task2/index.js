@@ -12,15 +12,15 @@ function formattedphone(phone) {
     }
 
     phone =
-        phone.slice(0, 2) + // +7
+        phone.slice(0, 2) +
         ' (' +
-        phone.slice(2, 5) + // (921)
+        phone.slice(2, 5) +
         ') ' +
-        phone.slice(5, 8) + // 123
+        phone.slice(5, 8) +
         '-' +
-        phone.slice(8, 10) + // 45
+        phone.slice(8, 10) +
         '-' +
-        phone.slice(10, 12); // 67
+        phone.slice(10, 12);
 
     return phone;
 }
